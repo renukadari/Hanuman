@@ -1,12 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./ChalisaPlay.css";
-import Typist from "react-typist";
 import ReactPlayer from "react-player";
-// import Typewriter from "typewriter-effect";
-import HanumanChalisa from "../../content/chalisa";
 import ChalisaAudio from "../../assets/audio/chalisa.mp3";
-import ChalisaThumbnail from "../../assets/jpg/hanuma1.jpg";
-// import { Typewriter } from "react-simple-typewriter";
 import TypeWriterEffect from "react-typewriter-effect";
 
 const ChalisaPlay = () => {
