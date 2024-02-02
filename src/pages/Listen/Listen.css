@@ -1,0 +1,37 @@
+.listen-title{
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff8500;
+}
+.play-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+@media screen and (max-width:768px) {
+    
+.listen-han-image{
+    max-width: 300px;
+}
+.listen-title{
+    font-size: 24px;
+}
+.play-div{
+    gap: 10px;
+    max-width: 320px;
+    margin: 0px !important;
+    padding: 5px !important ;
+}
+.text-typing-div{
+    max-width: 320px;
+    margin: 2px !important; 
+
+}
+.listen-image-div{
+    margin: 0px !important;
+}
+
+}

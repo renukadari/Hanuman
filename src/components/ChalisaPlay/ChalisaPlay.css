@@ -1,0 +1,13 @@
+.text-typing-div{
+    padding: 10px 40px;
+}
+@media screen and (max-width:768px){
+    .chalisa-player-div{
+        max-width: 320px;
+        margin: 10px !important;
+    }
+    .react-player-class{
+        max-width: 320px !important;
+        width: 320px;
+    }
+}

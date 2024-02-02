@@ -1,0 +1,78 @@
+.read-book-div {
+  background-image: url(../../assets/jpg/book-ver.jpg);
+  height: auto;
+  background-repeat: repeat-y;
+  background-size: auto;
+  background-position: top center;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.read-book-content,
+.read-book-content2 {
+  width: 80%;
+  margin: 60px auto 20px;
+  text-align: center;
+  color: #000000;
+  /* font-size: 24px; */
+}
+.read-book-content2 {
+  margin: 10px auto 20px;
+}
+.read-book-heading {
+  margin: 24px auto;
+  color: #000000;
+}
+.read-book-line,
+.read-book-line1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.read-book-line1 {
+  font-size: 18px;
+  margin-bottom: 0px;
+
+}
+.read-book-content div {
+  margin-bottom: 15px;
+}
+.read-book-content2 div {
+  margin-bottom: 15px;
+}
+.read-book-content p {
+  margin: 0px auto 6px;
+}
+.read-book-content2 p {
+  margin: 0px auto 6px;
+}
+.render-line-div{
+    margin-top: 250px;
+}
+.render-line-div1 p {
+  margin: 0px auto 0px;
+}
+.render-line-div1 {
+  margin-top: 30px;
+}
+.render-line-div-part-2{
+    margin-top: 280px;
+}
+.render-line-div-part-3{
+    margin-top: 275px;
+}
+.render-line-div-part-r{
+    margin-top: 270px;
+}
+@media screen and (max-width: 768px) {
+  .read-div{
+    padding: 0;
+    margin: 0;
+  }
+  .read-book-content {
+    padding: 40px 0px 0px !important;
+    width: 80%;
+  margin: 55px auto 0px !important;
+  }
+  
+}

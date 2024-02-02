@@ -1,0 +1,51 @@
+.share-div {
+  background-color: #ff8500;
+  border-radius: 150px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-div .shared-icon {
+  margin: 5px;
+  padding: 0;
+  color: #fff;
+}
+
+.share-div:hover {
+  background-color: #fff;
+  color: #ff8500;
+}
+.share-div:active {
+  background-color: #fff;
+  /* color: #ff8500; */
+}
+.share-icons-btn-div {
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.copy-to-clipb-icon {
+  cursor: pointer;
+}
+.share-modal-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ff8500 !important;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .share-modal-title {
+    font-size: 20px;
+  }
+  .share-icons-btn-div {
+    display: flex;
+    padding: 6px;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+}

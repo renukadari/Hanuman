@@ -1,0 +1,26 @@
+.hc-about-hanuman-div {
+  background-image: url("../../assets/jpg//hci7.jpg");
+  height: 1625px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  font-weight: 100;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.hc-abh-title{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff8500;
+}
+@media screen and (max-width: 768px) {
+  .hc-about-hanuman-div {
+    background-image: url("../../assets/jpg/hci8.jpg");
+    width: 100%;
+    height: auto;
+  }  
+  .no-gutter {
+    margin-right: 0;
+  }
+}

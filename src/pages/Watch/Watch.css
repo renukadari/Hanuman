@@ -1,0 +1,52 @@
+/* .watch-bg{
+    background-image: url('../../assets/jpg/ramlord.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: contain;
+    padding: 100px;
+} */
+.watch-bg {
+    position: relative;
+    padding: 100px;
+    /* overflow: hidden; */
+  }
+  
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .watch-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #ff00ff, #00ff00, #0000ff, #ff00ff); /* Gradient colors */
+    background-size: 400% 400%;
+    animation: gradientChange 8s infinite;
+    z-index: -1;
+  }
+  
+  .watch-bg iframe {
+    border: 10px solid white; /* Add a border to the iframes for better visibility */
+  }
+  @media screen and (max-width:768px){
+    .watch-bg{
+      padding: 10px !important;
+      margin: 10px !important;
+    }
+    .watch-bg iframe{
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+    }
+  }
